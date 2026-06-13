@@ -264,7 +264,7 @@ Potential extensions include:
 ## Authors
 
 **Reza Rajaee**
-M.Sc. Physics of Data, University of Padova
+University of Padova
 
 **Sarvenaz Babakhani**
 University of Padova
