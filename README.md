@@ -96,22 +96,9 @@ The objective was to leverage complementary strengths of individual architecture
 
 ## Results
 
-### Model Comparison
+### Model Comparison Figure
 
-| Model              | Test Accuracy |
-| ------------------ | ------------- |
-| Attention ResNet 1 | 89.29%        |
-| Attention ResNet 2 | 91.48%        |
-| CovidNet           | 94.10%        |
-| DenseNet-121       | 95.74%        |
-| Weighted Ensemble  | **95.85%**    |
-
-### Additional Metrics
-
-| Model        | Precision | Recall | F1 Score |
-| ------------ | --------- | ------ | -------- |
-| DenseNet-121 | 96%       | 96%    | 96%      |
-| Ensemble     | 96%       | 96%    | 96%      |
+![Model Comparison](figures/model_comparison.png)
 
 ### Training Accuracy
 
@@ -121,9 +108,6 @@ The objective was to leverage complementary strengths of individual architecture
 
 ![Training Loss](figures/training_loss.png)
 
-### Model Comparison Figure
-
-![Model Comparison](figures/model_comparison.png)
 
 ### Confusion Matrices
 
