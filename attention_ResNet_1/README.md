@@ -68,14 +68,17 @@ from train import *
 
 ## Training Configuration
 
-| Parameter | Value |
-|------------|------------|
-| Optimizer | Adam |
-| Initial Learning Rate | (verify from notebook/report) |
-| Batch Size | (verify from notebook/report) |
-| Epochs | (verify from notebook/report) |
-| Learning Rate Schedule | ReduceLROnPlateau |
-| Early Stopping | Enabled |
+| Parameter               | Value                                      |
+| ----------------------- | ------------------------------------------ |
+| Optimizer               | Nesterov SGD                               |
+| Weight Decay            | 0.0001                                     |
+| Momentum                | 0.9                                        |
+| Initial Learning Rate   | 0.0001                                     |
+| Batch Size              | 32                                         |
+| Epochs                  | 150                                        |
+| Learning Rate Schedule  | LearningRateScheduler                      |
+| Learning Rate Update    | Learning rate divided by 2 every 30 epochs |
+| Early Stopping Patience | 30                                         |
 
 ---
 
