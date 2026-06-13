@@ -34,12 +34,13 @@ This implementation represents the initial Attention ResNet architecture evaluat
 ---
 
 ## Folder Structure
-
+```text id="p7ekwy"
 attention_ResNet_1/
 ├── atten_resnet.py
 ├── dataloader.py
 ├── train.py
 └── attention_ResNet_1.ipynb
+```
 
 ### dataloader.py
 
